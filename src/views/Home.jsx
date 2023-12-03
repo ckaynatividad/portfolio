@@ -1,5 +1,7 @@
 import React from "react";
+import ProjectsCard from "../components/ProjectsCard";
 import ThingsCard from "../components/ThingsCard";
+import { projectsData } from "../services/projectsData";
 import { thingsData } from "../services/thingsData";
 
 export default function Home() {
@@ -9,6 +11,7 @@ export default function Home() {
       <p className="mb-5">I'm a software developer.</p>
 
       <ThingsCard things={thingsData} />
+      <ProjectsCard projects={projectsData} />
     </div>
   );
 }

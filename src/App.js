@@ -5,7 +5,7 @@ import Nav from "./views/Nav";
 
 function App() {
   return (
-    <div className="bg-red-200 h-screen flex flex-col">
+    <div className="bg-neutral-900 h-screen flex flex-col">
       <Nav />
       <Home />
     </div>
