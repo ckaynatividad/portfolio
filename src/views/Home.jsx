@@ -11,7 +11,7 @@ import Websites from "./Websites";
 
 export default function Home() {
   return (
-    <div className="justify-right text-white w-2/5 mt-10 m-auto">
+    <div className="justify-right text-white w-max mt-10 m-auto">
       <h1 className="text-3xl font-bold my-5">Hi, I'm Charysma!</h1>
 
       <p className="mb-5">
