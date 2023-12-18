@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Collapsible } from "../components/Collapsible";
 import ProjectsCard from "../components/ProjectsCard";
 import ThingsCard from "../components/ThingsCard";
 import { projectsData } from "../services/projectsData";
 import { thingsData } from "../services/thingsData";
+import Personal from "./Personal";
 import Projects from "./Projects";
 import Websites from "./Websites";
 
@@ -17,7 +19,7 @@ export default function Home() {
         <a className="underline" href="">
           art
         </a>
-        .
+        , and websites for fun.
       </p>
       <div className="flex flex-col">
         <Projects />

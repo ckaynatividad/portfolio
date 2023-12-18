@@ -6,6 +6,9 @@ module.exports = {
       scale: {
         25: ".25",
       },
+      transitionProperty: {
+        height: "height",
+      },
     },
   },
   plugins: [],
