@@ -1,3 +1,7 @@
+// import battling from "../components/assets/battling.png";
+// import foto from "../components/assets/foto.png";
+// import gotchibb from "../components/assets/gotchibb.png";
+
 export const projectsData = [
   {
     id: 1,
@@ -7,6 +11,7 @@ export const projectsData = [
       gameplay mechanics, and debugging.`,
     url: "https://github.com/ckaynatividad/pokemon-battling",
     date: "December 2021",
+    img: "battling.png",
   },
   {
     id: 2,
@@ -15,6 +20,7 @@ export const projectsData = [
     duties: "Duties: UI design, album functionality, and overall planning.",
     url: "https://github.com/photo-app-placeholder/Foto",
     date: "March 2022",
+    img: "foto.png",
   },
   {
     id: 3,
@@ -23,5 +29,6 @@ export const projectsData = [
     duties: "Duties: Backend construction, UI design, and debugging.",
     url: "https://github.com/Tamagotchi-Clone/gotchi-bb-frontend",
     date: "April 2022",
+    img: "gotchibb.png",
   },
 ];
